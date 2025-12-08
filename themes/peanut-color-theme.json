@@ -2,7 +2,7 @@
 	"name": "Peanut Theme (Improved Readability)",
 	"type": "light",
 	"colors": {
-		"editor.background": "#FFFFFF",
+		"editor.background": "#FFFEF9",
 		"editor.foreground": "#2A1F16",
 		"activityBar.background": "#F5F3ED",
 		"activityBar.foreground": "#2A1F16",
@@ -17,11 +17,14 @@
 		"button.secondaryBackground": "#5A4D3F",
 		"button.secondaryForeground": "#FFFFFF",
 		"button.secondaryHoverBackground": "#2A1F16",
-		"dropdown.background": "#FFFFFF",
+		"dropdown.background": "#FFFEF9",
 		"dropdown.border": "#8B7D6B",
 		"dropdown.foreground": "#2A1F16",
-		"editor.lineHighlightBackground": "#F9F7F2",
+		"editor.lineHighlightBackground": "#F5F0E8",
 		"editor.selectionBackground": "#FFD9B8",
+		"editor.findMatchBackground": "#FFE4A3",
+		"editor.findMatchHighlightBackground": "#FFF4D1",
+		"editor.findMatchBorder": "#E67D2280",
 		"editor.inactiveSelectionBackground": "#F5E5D899",
 		"editorCursor.foreground": "#E67D22",
 		"editorGroupHeader.tabsBackground": "#EBE8DF",
@@ -32,7 +35,7 @@
 		"editorWidget.background": "#F9F7F2",
 		"editorWidget.border": "#8B7D6B",
 		"focusBorder": "#FF8C42",
-		"input.background": "#FFFFFF",
+		"input.background": "#FFFEF9",
 		"input.border": "#8B7D6B",
 		"input.foreground": "#2A1F16",
 		"input.placeholderForeground": "#5A4D3F",
@@ -43,7 +46,7 @@
 		"list.hoverForeground": "#2A1F16",
 		"list.inactiveSelectionBackground": "#F5E5D8",
 		"list.inactiveSelectionForeground": "#2A1F16",
-		"panel.background": "#FFFFFF",
+		"panel.background": "#FFFEF9",
 		"panel.border": "#D0CAB8",
 		"panelTitle.activeBorder": "#E67D22",
 		"panelTitle.activeForeground": "#2A1F16",
@@ -64,7 +67,7 @@
 		"statusBar.foreground": "#2A1F16",
 		"statusBar.border": "#D0CAB8",
 		"statusBar.noFolderBackground": "#EBE8DF",
-		"tab.activeBackground": "#FFFFFF",
+		"tab.activeBackground": "#FFFEF9",
 		"tab.activeForeground": "#2A1F16",
 		"tab.activeBorder": "#E67D22",
 		"tab.activeBorderTop": "#E67D22",
@@ -72,7 +75,7 @@
 		"tab.inactiveForeground": "#5A4D3F",
 		"tab.border": "#D0CAB8",
 		"terminal.foreground": "#2A1F16",
-		"terminal.background": "#FFFFFF",
+		"terminal.background": "#FFFEF9",
 		"terminal.ansiBlack": "#2A1F16",
 		"terminal.ansiRed": "#C4361A",
 		"terminal.ansiGreen": "#4A6414",
@@ -88,7 +91,7 @@
 		"terminal.ansiBrightBlue": "#3D7B91",
 		"terminal.ansiBrightMagenta": "#955A99",
 		"terminal.ansiBrightCyan": "#4D8FA3",
-		"terminal.ansiBrightWhite": "#FFFFFF",
+		"terminal.ansiBrightWhite": "#FFFEF9",
 		"titleBar.activeBackground": "#EBE8DF",
 		"titleBar.activeForeground": "#2A1F16",
 		"titleBar.inactiveBackground": "#E0DDD2",
@@ -229,7 +232,7 @@
 				"support.function"
 			],
 			"settings": {
-				"fontStyle": "bold",
+				"fontStyle": "italic",
 				"foreground": "#C4361A"
 			}
 		},
@@ -240,7 +243,7 @@
 				"support.class"
 			],
 			"settings": {
-				"fontStyle": "bold",
+				"fontStyle": "italic",
 				"foreground": "#CC6600"
 			}
 		},
@@ -250,7 +253,7 @@
 				"entity.name.type.interface"
 			],
 			"settings": {
-				"fontStyle": "bold",
+				"fontStyle": "italic",
 				"foreground": "#B35900"
 			}
 		},
@@ -652,19 +655,19 @@
 		"property.readonly": "#4D8FA3",
 		"function": {
 			"foreground": "#C4361A",
-			"fontStyle": "bold"
+			"fontStyle": "italic"
 		},
 		"method": {
 			"foreground": "#C4361A",
-			"fontStyle": "bold"
+			"fontStyle": "italic"
 		},
 		"class": {
 			"foreground": "#CC6600",
-			"fontStyle": "bold"
+			"fontStyle": "italic"
 		},
 		"interface": {
 			"foreground": "#B35900",
-			"fontStyle": "bold"
+			"fontStyle": "italic"
 		},
 		"type": "#CC6600",
 		"enum": "#CC6600",
