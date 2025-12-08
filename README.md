@@ -71,7 +71,7 @@ For the best experience with Peanut Theme, consider these optional settings:
 
 ## Screenshots
 
-![Peanut Theme Preview](images/screenshot-1.png)
+![Peanut Theme Preview](https://raw.githubusercontent.com/yasithrashan/peanut-theme/main/images/screenshot-1.png)
 
 ## Contributing
 
