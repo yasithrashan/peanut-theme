@@ -1,0 +1,39 @@
+{
+  "name": "peanut-theme",
+  "displayName": "Peanut Theme",
+  "description": "A warm peanut-colored theme for a smooth, distraction-free coding experience",
+  "version": "0.0.1",
+  "publisher": "YasithRashan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yasithrashan/peanut-theme.git"
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "peanut",
+    "warm",
+    "light theme"
+  ],
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#D4A574",
+    "theme": "light"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Peanut Theme",
+        "uiTheme": "vs",
+        "path": "./themes/peanut-color-theme.json"
+      }
+    ]
+  }
+}
