@@ -14,7 +14,8 @@
     "color-theme",
     "peanut",
     "warm",
-    "light theme"
+    "light theme",
+    "dark theme"
   ],
   "engines": {
     "vscode": "^1.106.1"
@@ -30,9 +31,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Peanut Theme",
+        "label": "Peanut Light",
         "uiTheme": "vs",
-        "path": "./themes/peanut-color-theme.json"
+        "path": "./themes/peanut-light-theme.json"
+      },
+      {
+        "label": "Peanut Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/peanut-dark-theme.json"
       }
     ]
   }
